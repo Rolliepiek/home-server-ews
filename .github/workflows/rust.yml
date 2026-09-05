@@ -19,4 +19,4 @@ jobs:
     - name: Build
       run: cargo build --verbose --manifest-path ./home-server-ews/Cargo.toml
     - name: Run tests
-      run: cargo test --verbose ./home-server-ews/Cargo.toml
+      run: cargo test --verbose --manifest-path ./home-server-ews/Cargo.toml
