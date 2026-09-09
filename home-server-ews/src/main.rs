@@ -11,7 +11,7 @@ fn setup(test: bool) {
     if test != true {
         io::stdin().read_line(&mut input).expect("Error");
     } else {
-        input = String::from("yes")
+        input = String::from("yes");
     }
 }
 fn main() {
