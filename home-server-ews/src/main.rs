@@ -3,6 +3,7 @@ use std::io;
 fn test() {
     setup(true)
 }
+#[allow(unused_assignments)]
 fn setup(test: bool) {
     let mut input: String = String::new();
     println!("Welcome to this setup for home-server-ews.");
